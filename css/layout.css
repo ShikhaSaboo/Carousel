@@ -1,0 +1,47 @@
+.slider-container{
+	width: 600px;
+	height:400px;
+	overflow: hidden;
+	margin: 0 auto;
+	position: relative; 
+}
+.nav-left{
+	position:absolute;
+	top:40%;
+	left:0% ;
+	opacity: 0.5;
+    filter: alpha(opacity=50);
+    border: 2px solid #ccc;
+    background: red;
+    width: 25px;
+    height: 40px;
+    border-radius:0px 15px 15px 0px; 
+}
+.nav-right{
+	position: absolute;
+	top:40%;
+	right:0% ;
+	opacity: 0.5;
+    filter: alpha(opacity=50);
+    border: 2px solid #ccc;
+    background: red;
+    width: 25px;
+    height: 40px;
+    border-radius:15px 0px 0px 15px; 
+}
+.image-slider-wrapper{
+	width: 2400px;
+	height: 400px;
+	float: left;
+	
+	transition: margin-left 1s ease-in-out;
+}
+
+.images-div{
+	float: left;
+	width: 600px;
+	height:400px;
+}
+.images-div img{
+	width: 100%;
+}
